@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
     // include database connection file
     include_once("koneksi.php");
@@ -71,7 +71,7 @@
         </table>
         </form>
     </body>
-=======
+
 <?php
     // include database connection file
     include_once("koneksi.php");
@@ -144,5 +144,5 @@
         </table>
         </form>
     </body>
->>>>>>> caf1dfc1886ced604f20cf25c39e034f43f9f359
+
 </html>
