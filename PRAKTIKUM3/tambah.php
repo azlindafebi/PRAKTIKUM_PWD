@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <html>
     <head>
         <title> Tambah Data Mahasiswa</title>
@@ -55,7 +55,7 @@
     }
 ?>
     </body>
-=======
+
 <html>
     <head>
         <title> Tambah Data Mahasiswa</title>
@@ -112,5 +112,5 @@
     }
 ?>
     </body>
->>>>>>> caf1dfc1886ced604f20cf25c39e034f43f9f359
+
 </html>
