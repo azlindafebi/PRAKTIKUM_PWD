@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 $host           = "localhost";
 $username       = "root";
@@ -10,7 +10,7 @@ if (!$con) {
     echo "Error: ". mysqli_connect_error();
     exit();
 }
-=======
+
 <?php
 $host           = "localhost";
 $username       = "root";
@@ -22,5 +22,5 @@ if (!$con) {
     echo "Error: ". mysqli_connect_error();
     exit();
 }
->>>>>>> caf1dfc1886ced604f20cf25c39e034f43f9f359
+
 ?>
