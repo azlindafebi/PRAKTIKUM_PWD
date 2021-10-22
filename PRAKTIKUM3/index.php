@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <?php
 
 // create database connection using config file
@@ -36,7 +36,7 @@ $result = mysqli_query($con, "SELECT * FROM mahasiswa");
 ?>
         </table>
     </body>
-=======
+
 <?php
 
 // create database connection using config file
@@ -74,5 +74,5 @@ $result = mysqli_query($con, "SELECT * FROM mahasiswa");
 ?>
         </table>
     </body>
->>>>>>> caf1dfc1886ced604f20cf25c39e034f43f9f359
+
 </html>
