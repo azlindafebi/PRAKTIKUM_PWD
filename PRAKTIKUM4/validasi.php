@@ -1,7 +1,19 @@
 <html>
     <head>
         <style>
-        .error{color: #FF0000;}
+        
+        .error {
+            color: #FF0000;
+        }
+
+        .container table,
+        .container tr,
+        .container td {
+            border          : 2px solid black;
+            border-collapse : collapse;
+            text-align      : center;
+
+        }
         </style>
     </head>
     <body>
@@ -99,23 +111,45 @@
                 </td>
         </table>
         </form>
+    
+    <!--menampilkan data dengan tabel-->
+        <h2>Data yang anda isi:</h2>
+        <div class="container">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>Email</td>
+                <td>Website</td>
+                <td>Komentar</td>
+                <td>Gender</td>
+            </tr>
+            <tr>
+                <td><?php echo $nama; ?></td>
+                <td><?php echo $email; ?></td>
+                <td><?php echo $website; ?></td>
+                <td><?php echo $comment; ?></td>
+                <td><?php echo $gender; ?></td>
+            </tr>
+        </table>
+    </div>
+    
+    <!--
+    <?php
+    echo "<h2>Data yang anda isi:</h2>";
+    echo $nama;
+    echo "<br>";
 
-        <?php
-            echo "<h2>Data yang anda isi:</h2>";
-            echo $nama;
-            echo "<br>";
-            
-            echo $email;
-            echo "<br>";
-            
-            echo $website;
-            echo "<br>";
-            
-            echo $comment;
-            echo "<br>";
-            
-            echo $gender;
-        ?>
-            
+    echo $email;
+    echo "<br>";
+
+    echo $website;
+    echo "<br>";
+
+    echo $comment;
+    echo "<br>";
+
+    echo $gender;
+    ?> 
+-->
     </body>
 </html>
