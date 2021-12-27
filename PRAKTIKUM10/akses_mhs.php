@@ -1,5 +1,5 @@
 <?php
-$url = "https://sndy.000webhostapp.com/getdatamhs.php";
+$url = "https://azlindafebi.000webhostapp.com/getdatamhs.php";
 $client = curl_init($url);
 curl_setopt($client, CURLOPT_RETURNTRANSFER, 1);
 $response = curl_exec($client);
